@@ -14,7 +14,7 @@ const LandingPage = () => {
   };
   const handleInputChange = (text) => {
     setInputText(text);
-    const words = inputText.split(" ");
+    const words = text.split(" ");
     const correctedWords = words.map((word, index) => {
       const correctedWord = customDictionary[word.toLowerCase()];
       return correctedWord || word;
