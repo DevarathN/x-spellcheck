@@ -39,7 +39,7 @@ const LandingPage = () => {
         cols={40}
         placeholder="Enter text..."
       ></textarea>
-      {suggestedText && <p>Did you mean: {suggestedText}?</p>}
+      {suggestedText && <p>Did you mean: <strong>{suggestedText}</strong>?</p>}
     </div>
   );
 };
