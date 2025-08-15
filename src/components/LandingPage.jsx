@@ -41,7 +41,7 @@ const LandingPage = () => {
       ></textarea>
       {suggestedText && (
         <p>
-          Did you mean: <strong>{suggestedText}?</strong>
+          Did you mean: <strong>{suggestedText}</strong>?
         </p>
       )}
     </div>
